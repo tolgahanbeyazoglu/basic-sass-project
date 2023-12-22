@@ -1,0 +1,20 @@
+// We recommend that you use font structures as woff.
+// 1 - We can use font family names everywhere by binding them to variables.
+// 2 - Fonts must be in local folder and you must give correct file systems
+// 3 - look at the variables file in the next step
+
+@font-face { font-family: 'Plus-Jakarta-Sans-semibold'; 
+    src: url('../fonts/PlusJakartaSans-SemiBold.woff2') format('woff2'),
+        url('../fonts/PlusJakartaSans-SemiBold.woff') format('woff'); font-weight: 600; font-style: normal; font-display: swap; }
+
+@font-face { font-family: 'Plus-Jakarta-Sans-bold'; 
+    src: url('../fonts/PlusJakartaSans-Bold.woff2') format('woff2'),
+        url('../fonts/PlusJakartaSans-Bold.woff') format('woff'); font-weight: bold; font-style: normal; font-display: swap; }
+
+@font-face { font-family: 'Plus-Jakarta-Sans-extra-bold'; 
+    src: url('../fonts/PlusJakartaSans-ExtraBold.woff2') format('woff2'),
+        url('../fonts/PlusJakartaSans-ExtraBold.woff') format('woff'); font-weight: bold; font-style: normal; font-display: swap; }
+
+@font-face { font-family: 'Plus-Jakarta-Sans-medium'; 
+    src: url('../fonts/PlusJakartaSans-Medium.woff2') format('woff2'),
+        url('../fonts/PlusJakartaSans-Medium.woff') format('woff'); font-weight: 500; font-style: normal; font-display: swap; }

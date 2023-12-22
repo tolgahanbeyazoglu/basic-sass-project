@@ -1,0 +1,24 @@
+// scss main hub section
+// 1 -  In this section, you need to combine all your scss files and render them.
+// 2 - You can use the extension LIVE SASS COMPILER to use your sass application.
+
+
+/*Root Element */
+@import "Base/variables";
+@import "Base/media";
+@import "Base/animation";
+@import "Base/mixin";
+@import "Base/extend";
+@import "Base/reset";
+@import "Base/fonts"; 
+
+/*Components*/
+@import "Components/rfs";
+@import "Components/Navbar";
+@import "Components/Footer";
+
+/*Card*/
+
+
+/*Page*/
+@import "Pages/home";

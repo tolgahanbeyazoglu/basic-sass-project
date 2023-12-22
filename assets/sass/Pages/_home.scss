@@ -1,0 +1,24 @@
+//The sample nested sass elements you see below are
+// 1 -  @include font-size() I can feel the components you are wondering about, it automatically shrinks your texts according to sensitive screens with the RFS inside.
+// 2 -  @include mobile-xl() use css on the screen size you want
+// 3 -  Image css that we will use everywhere from img extend elements EXTEND
+// 4 -  an opacity animation based on font
+
+main{
+    height: 100vh;
+    section{
+        height: 100%;
+        img{
+            @extend %img-size;
+        }
+        h1{
+            font-weight: 900;
+            font-family: $bold;
+            @include animation;
+            @include font-size(40px);
+            @include mobile-xl{
+                color: red;
+            }
+        }
+    }
+}
